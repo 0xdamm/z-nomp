@@ -1,7 +1,7 @@
 {
     "name": "z-nomp",
-    "version": "0.0.4",
-    "description": "Zclassic (Equihash) stratum mining pool based on NOMP",
+    "version": "0.0.5",
+    "description": "Zcash/Zclassic (Equihash) stratum mining pool based on NOMP",
     "keywords": [
         "stratum",
         "mining",
@@ -12,13 +12,14 @@
         "zcash",
         "equihash"
     ],
-    "homepage": "https://github.com/joshuayabut/node-open-mining-portal",
+    "homepage": "https://github.com/hellcatz/z-nomp",
     "bugs": {
-        "url": "https://github.com/joshuayabut/node-open-mining-portal/issues"
+        "url": "https://github.com/hellcatz/z-nomp/issues"
     },
     "license": "MIT",
-    "author": "Joshua Yabut",
+    "author": "hellcatz",
     "contributors": [
+        "Joshua Yabut",
         "Matthew Little",
         "vekexasia",
         "TheSeven"
@@ -29,10 +30,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/joshuayabut/z-nomp.git"
+        "url": "https://github.com/hellcatz/z-nomp.git"
     },
     "dependencies": {
-        "stratum-pool": "git+https://github.com/joshuayabut/node-stratum-pool.git",
+        "stratum-pool": "git+https://github.com/hellcatz/node-stratum-pool.git",
         "dateformat": "*",
         "node-json-minify": "*",
         "redis": "*",
